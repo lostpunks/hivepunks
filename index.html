@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HivePunks</title>
+    <link rel="shortcut icon" href="icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@v1.6.0/dist/web3.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="banner">
+      <img src="banner.jpg" class="banner"/>
+    </div>
+    <div class="content">
+      <h1>⬡⬡⬡ HivePunks ⬡⬡⬡</h1>
+        <p>
+          <a href="https://discord.gg/wqKqsvFWBE" target="_blank"><img class="logo" alt="Discord" src="discord.png"/></a>
+          <a href="https://twitter.com/lostpunks" target="_blank"><img class="logo" alt="Twitter" src="twitter.png"/></a>
+          <a href="https://opensea.io/collection/hivepunks" target="_blank"><img class="logo" alt="OpenSea" src="opensea.png"/></a>
+          <a href="https://etherscan.io/address/0x887ec3a5419d2836de4b13cedf34ac3ed3ec1442/#writeContract" target="_blank"><img class="logo" alt="Etherscan" src="etherscan.png"/></a>
+          <a href="https://lostpunks.medium.com" target="_blank"><img class="logo" alt="Medium" src="medium.png"/></a>
+        </p>
+<p>
+HivePunks are 10,000 slightly distorted hexagonal inhabitants of the Ethereum blockchain. Each HivePunk is unique and has the exact same traits as their CryptoPunk twin, pseudo-randomly picked at the time of minting.
+</p>
+<p>
+All metadata and images are fully generated and stored on-chain (no IPFS, no secret reveal).
+</p>
+<label id="sales-label">&nbsp;</label>
+<div class="row">
+  <form>
+    <div class="old-form-group">
+      <label id="old-label" class="form-control">&nbsp;</label>
+      <div id="old-image">
+        <img class="padded" src="questionMark.svg"/>
+      </div>
+      <button id="old-button" type="button">&nbsp;</button>
+    </div>
+    <div class="new-form-group">
+      <label id="new-label" class="form-control">&nbsp;</label>
+      <div id="new-image">
+        <img class="padded" src="questionMark.svg"/>
+      </div>
+      <button id="new-button" type="button">&nbsp;</button>
+       <div class="quantity">
+        <button id="decrement-button" type="button" onclick="return decrement();">−</button>
+        <label id="quantity-input">1</label>
+        <button id="increment-button" type="button" onclick="return increment();">+</button>
+      </div>
+    </div>
+  </form>
+</div>
+<p>
+Brought to you by Lost Punk Society. Inspired by Larva Labs (not affiliated).
+</p>
+</div>
+</body>
+</html>
